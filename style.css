@@ -1,0 +1,62 @@
+*{                             /* select all tags*/
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  
+  body{
+    background:black;
+    color:white;
+    font-family:"poppins", sans-serif;
+  }
+
+
+.navbar{
+    position: absolute;     /* fixed to top*/
+    top: 0;                 /* distance from top*/
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 8%;
+    z-index: 10;
+
+}
+
+.navbar_netflix{
+    height: 100%;
+    width: 125px;
+}
+
+.nav_items{
+    display: flex;
+    gap: 10px; ;
+}
+
+.logo{
+    width: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.languagedropdown{
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.dropdown_contaier{
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0, 4);
+}
+
+.signin_button{
+    border: #dc030f;
+    background-color: #dc030f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+}
